@@ -41,7 +41,7 @@ After you're finished please remove all the comments and instructions!
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-<!-- - [🔭 Future Features](#future-features) -->
+- [🔭 Future Features](#future-features)
 <!-- - [🎥 Video Summary](#video-summary) -->
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -148,12 +148,11 @@ To run tests, run the following command:
 
 <!-- FUTURE FEATURES -->
 
-<!-- ## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Set alarms for actions
-- [ ] Download action list as images, pdfs or docs
+- [ ] Create components
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- VIDEO SUMMARY -->
 <!-- ## 🎥 Video Summary <a name="video-summary"></a>
