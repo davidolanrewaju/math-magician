@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500;700;800&display=swap');
+
+.calculator_parent_container {
+  font-family: 'Wix Madefor Text', sans-serif;
+  background-color: white;
+  margin: 10% auto;
+  max-width: 50%;
+}
+
+.display_result {
+  background-color: #818181;
+  padding: 20px 20px 20px 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.result {
+  color: white;
+  text-align: end;
+}
+
+.inputs {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.three-grid {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+input {
+  padding: 20px 40px;
+  outline: none;
+  border: 1px solid #a7a6a6;
+  background-color: #dfdfdf;
+  font-family: 'Wix Madefor Text', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.orange {
+  background-color: #ff8432;
+}
