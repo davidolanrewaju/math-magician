@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
+import Buttons from './Buttons';
 
 const Calculator = () => {
   const [currentState, updateState] = useState({
@@ -25,22 +26,22 @@ const Calculator = () => {
       </div>
       <div className="input_values">
         <div className="inputs">
-          <input type="button" onClick={updateView} value="AC" />
-          <input type="button" onClick={updateView} value="+/-" />
-          <input type="button" onClick={updateView} value="%" />
-          <input type="button" onClick={updateView} className="orange" value="÷" />
+          <Buttons onClick={updateView} value="AC" />
+          <Buttons onClick={updateView} value="+/-" />
+          <Buttons onClick={updateView} value="%" />
+          <Buttons onClick={updateView} className="orange" value="÷" />
         </div>
         <div className="inputs">
-          <input type="button" onClick={updateView} value="7" />
-          <input type="button" onClick={updateView} value="8" />
-          <input type="button" onClick={updateView} value="9" />
-          <input type="button" onClick={updateView} className="orange" value="x" />
+          <Buttons onClick={updateView} value="7" />
+          <Buttons onClick={updateView} value="8" />
+          <Buttons onClick={updateView} value="9" />
+          <Buttons onClick={updateView} className="orange" value="x" />
         </div>
         <div className="inputs">
-          <input type="button" onClick={updateView} value="4" />
-          <input type="button" onClick={updateView} value="5" />
-          <input type="button" onClick={updateView} value="6" />
-          <input type="button" onClick={updateView} className="orange" value="-" />
+          <Buttons onClick={updateView} value="4" />
+          <Buttons onClick={updateView} value="5" />
+          <Buttons onClick={updateView} value="6" />
+          <Buttons onClick={updateView} className="orange" value="-" />
         </div>
         <div className="inputs">
           <input type="button" onClick={updateView} value="1" />
@@ -49,9 +50,9 @@ const Calculator = () => {
           <input type="button" onClick={updateView} className="orange" value="+" />
         </div>
         <div className="inputs three-grid">
-          <input type="button" onClick={updateView} value="0" />
-          <input type="button" onClick={updateView} value="." />
-          <input type="button" onClick={updateView} className="orange" value="=" />
+          <Buttons onClick={updateView} value="0" />
+          <Buttons onClick={updateView} value="." />
+          <Buttons onClick={updateView} className="orange" value="=" />
         </div>
       </div>
     </div>
