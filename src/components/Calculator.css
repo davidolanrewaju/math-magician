@@ -36,10 +36,18 @@ input {
   background-color: #dfdfdf;
   font-family: 'Wix Madefor Text', sans-serif;
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
+}
+
+input:active {
+  background-color: #919191;
 }
 
 .orange {
   background-color: #ff8432;
+}
+
+.orange:active {
+  background-color: #cc6724;
 }
