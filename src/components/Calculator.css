@@ -40,6 +40,14 @@ input {
   margin: 0;
 }
 
+input:active {
+  background-color: #919191;
+}
+
 .orange {
   background-color: #ff8432;
+}
+
+.orange:active {
+  background-color: #cc6724;
 }
