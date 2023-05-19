@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500;700;800&display=swap');
+
+.home_section {
+  font-family: 'Wix Madefor Text', sans-serif;
+  background-color: white;
+  margin: 10% auto;
+  padding: 20px 40px;
+  max-width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 6px 8px;
+  border-radius: 10px;
+}
+
+.home_text {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+}

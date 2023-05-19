@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500;700;800&display=swap');
+
+.calculator_parent_container {
+  font-family: 'Wix Madefor Text', sans-serif;
+  background-color: transparent;
+  margin: 8% auto;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.side_text p {
+  background-color: #9e9e9e;
+  color: white;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 3px;
+  border-radius: 15px;
+}
+
+.display_result {
+  background-color: #818181;
+  padding: 20px 20px 20px 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.result {
+  color: white;
+  text-align: end;
+}
+
+.inputs {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.three-grid {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+input {
+  padding: 20px 40px;
+  outline: none;
+  border: 1px solid #a7a6a6;
+  background-color: #dfdfdf;
+  font-family: 'Wix Madefor Text', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+input:active {
+  background-color: #919191;
+}
+
+.orange {
+  background-color: #ff8432;
+}
+
+.orange:active {
+  background-color: #cc6724;
+}
