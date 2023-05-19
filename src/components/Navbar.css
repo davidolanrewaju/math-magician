@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500;700;800&display=swap');
+
+nav {
+  font-family: 'Wix Madefor Text', sans-serif;
+  background-color: white;
+  padding: 0.5rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 5px 8px;
+}
+
+.logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 20px;
+  color: rgb(10, 105, 189);
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  font-weight: 600;
+}
+
+.link {
+  color: rgb(10, 105, 189);
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 3px 10px;
+}
+
+.link:hover {
+  color: white;
+  border: 1px solid transparent;
+  background-color: rgb(10, 105, 189);
+  padding: 3px 10px;
+}

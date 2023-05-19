@@ -2,9 +2,24 @@
 
 .calculator_parent_container {
   font-family: 'Wix Madefor Text', sans-serif;
-  background-color: white;
-  margin: 10% auto;
-  max-width: 50%;
+  background-color: transparent;
+  margin: 8% auto;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.side_text p {
+  background-color: #a3a3a3;
+  color: white;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 3px 5px;
+  border-radius: 15px;
 }
 
 .display_result {

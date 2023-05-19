@@ -140,7 +140,7 @@ To run tests, run the following command:
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Olanrewaju David**
-- GitHub: [@dave-prog](https://github.com/dave-prog)
+- GitHub: [@davidolanrewaju](https://github.com/davidolanrewaju)
 - Twitter: [@ola_dayve](https://twitter.com/ola_dayve)
 - LinkedIn: [David Olanrewaju](https://www.linkedin.com/in/david-olanrewaju)
 
