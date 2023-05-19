@@ -18,8 +18,9 @@
   font-weight: 900;
   font-style: italic;
   padding: 30px;
-  box-shadow: rgba(0, 0, 0, 0.5) 4px 4px 3px;
+  box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 2px;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .display_result {
