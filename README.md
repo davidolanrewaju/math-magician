@@ -55,6 +55,10 @@ After you're finished please remove all the comments and instructions!
 
 **Math Magician** is a calculator created using React/Redux.
 
+![Screenshot (32)](https://github.com/davidolanrewaju/math-magician/assets/63909901/577835d7-a338-43f1-a351-2f145709e547)
+
+![Screenshot (33)](https://github.com/davidolanrewaju/math-magician/assets/63909901/4c9bf0d4-1ed8-4f92-a5b8-0a197597b7e2)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
